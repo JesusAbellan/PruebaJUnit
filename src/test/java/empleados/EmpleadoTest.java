@@ -62,4 +62,5 @@ class EmpleadoTest {
                 "y un salario de "+12000.0;
 		assertEquals(exp,e.toString());
 	}
+	//Los getters se consideran testeados al probarse en los otros test y coincidir con el resultado esperado.
 }
